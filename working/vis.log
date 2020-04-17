@@ -1,0 +1,17 @@
+---- vis / ericw-tools v0.18.1 ----
+running with 4 threads
+testlevel = 4
+LoadBSPFile: 'beesnests.bsp'
+BSP is version 29
+   581 leafs
+  1788 portals
+Calculating Base Vis:
+0....1....2....3....4....5....6....7....8....9....
+Calculating Full Vis:
+0....1....2....3....4....5....6....7....8....9....
+average leafs visible: 290
+c_noclip: 0
+c_chains: 27208120
+visdatasize:35282  compressed from 42413
+Writing beesnests.bsp as BSP version 29
+ 65.8 seconds elapsed

@@ -1,0 +1,84 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: BeesNest.map
+Output file: BeesNest.bsp
+
+---- LoadMapFile ----
+         1801 faces
+          282 brushes
+          166 entities
+           17 unique texnames
+           52 texinfo
+
+Opened WAD: ../wads/prototype_1_2.wad
+Opened WAD: ../wads/START.WAD
+Processing hull 0...
+---- Brush_LoadEntity ----
+          274 brushes
+          586 planes
+---- CSGFaces ----
+         1753 brushfaces
+         3718 csgfaces
+         2977 mergedfaces
+---- SolidBSP ----
+         3397 split nodes
+         1300 solid leafs
+         2047 empty leafs
+           51 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         7470 leaffaces
+         6922 nodefaces
+---- Portalize ----
+         2098 vis leafs
+         2098 vis clusters
+         6224 vis portals
+---- FillOutside ----
+         1332 outleafs
+---- MergeAll ----
+         1472 mergefaces
+---- SolidBSP ----
+          974 split nodes
+          459 solid leafs
+          481 empty leafs
+           35 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         2686 leaffaces
+         2043 nodefaces
+---- Portalize ----
+          516 vis leafs
+          516 vis clusters
+         1572 vis portals
+---- Tjunc ----
+         2175 world edges
+         7386 edge points
+         1793 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+*** WARNING 16: Texture __TB_empty not found
+---- WriteBSPFile ----
+Wrote BeesNest.bsp
+         1452 planes            29040
+         2855 vertexes          34260
+         1022 nodes             24528
+           43 texinfo            1720
+         2091 faces             41820
+         2696 clipnodes         21568
+          565 leafs             15820
+         2734 marksurfaces       5468
+        10214 surfedges         40856
+         5108 edges             20432
+           17 textures         118952
+              lightdata             0
+              visdata               0
+              entdata           11115
+
+1.056 seconds elapsed
+Peak memory usage: 23422628 (22.3M)
