@@ -4,23 +4,21 @@ running with 4 threads
 LoadBSPFile: 'lavalab.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: brush entity with mins (125.00 -5.00 89.00) maxs (127.00 -1.00 99.00) (func_button) has targetname "door1button" which is not targetted by anything.
-WARNING: brush entity with mins (125.00 -15.00 89.00) maxs (127.00 -11.00 99.00) (func_button) has empty key/value "wait" ""
-WARNING: brush entity with mins (125.00 -15.00 89.00) maxs (127.00 -11.00 99.00) (func_button) has unmatched "target" (platform)
-WARNING: brush entity with mins (2125.00 -2415.00 11) maxs (2135.00 -2405.00 11) (func_button) has empty key/value "wait" ""
-WARNING: brush entity with mins (2125.00 -2415.00 11) maxs (2135.00 -2405.00 11) (func_button) has targetname "final1" which is not targetted by anything.
+WARNING: brush entity with mins (125.00 -15.00 89.00) maxs (127.00 -5.00 99.00) (func_button) has targetname "door1button" which is not targetted by anything.
+WARNING: brush entity with mins (2125.00 -2399.00 11) maxs (2135.00 -2397.00 11) (func_button) has empty key/value "wait" ""
+WARNING: brush entity with mins (2125.00 -2399.00 11) maxs (2135.00 -2397.00 11) (func_button) has targetname "final1" which is not targetted by anything.
 WARNING: brush entity with mins (1477.00 -2723.00 98) maxs (1487.00 -2721.00 99) (func_button) has empty key/value "wait" ""
 WARNING: brush entity with mins (1477.00 -2723.00 98) maxs (1487.00 -2721.00 99) (func_button) has targetname "final2" which is not targetted by anything.
 WARNING: brush entity with mins (1925.00 -2375.00 98) maxs (1935.00 -2373.00 99) (func_button) has empty key/value "wait" ""
 WARNING: brush entity with mins (1925.00 -2375.00 98) maxs (1935.00 -2373.00 99) (func_button) has targetname "final3" which is not targetted by anything.
 WARNING: brush entity with mins (2241.00 -2739.00 94) maxs (2303.00 -2725.00 10) (func_door) has targetname "secretdoor" which is not targetted by anything.
 WARNING: brush entity with mins (-199.00 -239.00 -47) maxs (127.00 127.00 -17.0) (func_door) has targetname "lava1" which is not targetted by anything.
-84 entities read, 30 are lights.
+82 entities read, 30 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	1591 solid faces
+	1596 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 30 initial lights
@@ -33,12 +31,12 @@ Final count: 30 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 62063
+lightdatasize: 61571
 0 switchable light styles (32 max)
 Writing lavalab.bsp as BSP version 29
-0.805 seconds elapsed
+0.809 seconds elapsed
 
 stats:
-1.349571 lights tested, 1.093615 hits per sample point
+1.364092 lights tested, 1.112100 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
