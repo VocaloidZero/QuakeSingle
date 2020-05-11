@@ -11,12 +11,12 @@ WARNING: brush entity with mins (1477.00 -2723.00 98) maxs (1487.00 -2721.00 99)
 WARNING: brush entity with mins (1933.00 -2375.00 98) maxs (1943.00 -2373.00 99) (func_button) has targetname "final3" which is not targetted by anything.
 WARNING: brush entity with mins (2241.00 -2739.00 94) maxs (2303.00 -2725.00 10) (func_door) has targetname "secretdoor" which is not targetted by anything.
 WARNING: brush entity with mins (1897.00 -2363.00 92) maxs (1959.00 -2301.00 15) (func_plat) has empty key/value "angle" ""
-111 entities read, 62 are lights.
+112 entities read, 62 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	2404 solid faces
+	2405 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 62 initial lights
@@ -32,9 +32,9 @@ Lighting Completed.
 lightdatasize: 77125
 0 switchable light styles (32 max)
 Writing lavalab.bsp as BSP version 29
-0.485 seconds elapsed
+1.239 seconds elapsed
 
 stats:
-2.496228 lights tested, 1.902291 hits per sample point
+2.492613 lights tested, 1.900951 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

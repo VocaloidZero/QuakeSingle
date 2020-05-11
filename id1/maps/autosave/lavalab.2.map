@@ -3045,6 +3045,7 @@
 "classname" "func_plat"
 "targetname" "water"
 "angle" ""
+"height" "563"
 // brush 0
 {
 ( 1896 -2344 1268 ) ( 1896 -2324 1184 ) ( 1896 -2324 1268 ) 128_grey_3 0 0 0 1 1
@@ -3067,4 +3068,9 @@
 {
 "classname" "weapon_grenadelauncher"
 "origin" "2116 -1564 688"
+}
+// entity 82
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-60 -84 16"
 }

@@ -2899,64 +2899,54 @@
 }
 // entity 61
 {
-"classname" "weapon_rocketlauncher"
-"origin" "2096 -1556 688"
-}
-// entity 62
-{
 "classname" "item_rockets"
 "origin" "2064 -1840 940"
 }
-// entity 63
+// entity 62
 {
 "classname" "monster_zombie"
 "origin" "1224 -64 392"
 "angle" "180"
 }
-// entity 64
+// entity 63
 {
 "classname" "monster_ogre_marksman"
 "origin" "1920 -1824 964"
 "angle" "90"
 }
-// entity 65
+// entity 64
 {
 "classname" "monster_zombie"
 "origin" "1728 -2288 1040"
 "angle" "90"
 }
-// entity 66
+// entity 65
 {
 "classname" "monster_zombie"
 "origin" "1828 -2540 1040"
 "angle" "180"
 }
-// entity 67
+// entity 66
 {
 "classname" "monster_zombie"
 "origin" "2048 -2560 1020"
 }
-// entity 68
-{
-"classname" "monster_ogre_marksman"
-"origin" "1452 -2260 1100"
-}
-// entity 69
+// entity 67
 {
 "classname" "item_shells"
 "origin" "88 8 48"
 }
-// entity 70
+// entity 68
 {
 "classname" "info_player_start"
 "origin" "-184 -48 40"
 }
-// entity 71
+// entity 69
 {
 "classname" "item_shells"
 "origin" "88 44 48"
 }
-// entity 72
+// entity 70
 {
 "classname" "trigger_changelevel"
 "map" "start"
@@ -2978,29 +2968,29 @@
 ( 1960 -2344 1600 ) ( 1960 -2324 1516 ) ( 1960 -2344 1516 ) trigger 0 0 0 1 1
 }
 }
-// entity 73
+// entity 71
 {
 "classname" "item_shells"
 "origin" "1920 -1052 688"
 }
-// entity 74
+// entity 72
 {
 "classname" "info_intermission"
 "origin" "2272 -2056 1204"
 "angle" "221"
 }
-// entity 75
+// entity 73
 {
 "classname" "light_flame_small_white"
 "origin" "2272 -2816 1024"
 }
-// entity 76
+// entity 74
 {
 "classname" "item_armorInv"
 "origin" "2272 -2784 948"
 "angle" "90"
 }
-// entity 77
+// entity 75
 {
 "classname" "func_door"
 "health" "2"
@@ -3017,12 +3007,12 @@
 ( 2304 -2724 948 ) ( 2304 -2724 1024 ) ( 2304 -2596 1024 ) 128_brown_1 0 0 0 1 1
 }
 }
-// entity 78
+// entity 76
 {
 "classname" "item_shells"
 "origin" "2308 -2380 1096"
 }
-// entity 79
+// entity 77
 {
 "classname" "func_door"
 "targetname" "lava1"
@@ -3039,37 +3029,42 @@
 ( 128 64 -16 ) ( 128 64 -15 ) ( 128 65 -16 ) *lava_64_1 0 0 0 1 1
 }
 }
-// entity 80
+// entity 78
 {
 "classname" "monster_zombie"
 "origin" "1920 -648 408"
 "angle" "90"
 }
-// entity 81
+// entity 79
 {
 "classname" "light"
 "origin" "1676 -2480 1208"
 }
-// entity 82
+// entity 80
 {
 "classname" "func_plat"
 "targetname" "water"
-"angle" "-1"
+"angle" ""
 // brush 0
 {
-( 1896 -2344 720 ) ( 1896 -2324 636 ) ( 1896 -2324 720 ) 128_grey_3 0 0 0 1 1
-( 1896 -2344 720 ) ( 1904 -2360 636 ) ( 1896 -2344 636 ) 128_grey_3 0 0 0 1 1
-( 1904 -2308 720 ) ( 1896 -2324 636 ) ( 1904 -2308 636 ) 128_grey_3 0 0 0 1 1
-( 1920 -2300 720 ) ( 1904 -2308 636 ) ( 1920 -2300 636 ) 128_grey_3 0 0 0 1 1
-( 1904 -2360 720 ) ( 1920 -2364 636 ) ( 1904 -2360 636 ) 128_grey_3 0 0 0 1 1
-( 1920 -2364 720 ) ( 1936 -2364 636 ) ( 1920 -2364 636 ) 128_grey_3 0 0 0 1 1
-( 1896 -2324 372 ) ( 1920 -2300 372 ) ( 1904 -2308 372 ) 128_grey_3 0 0 0 1 1
-( 1896 -2344 956 ) ( 1920 -2364 956 ) ( 1904 -2360 956 ) 128_grey_3 0 0 0 1 1
-( 1936 -2300 720 ) ( 1920 -2300 636 ) ( 1936 -2300 636 ) 128_grey_3 0 0 0 1 1
-( 1936 -2364 720 ) ( 1952 -2360 636 ) ( 1936 -2364 636 ) 128_grey_3 0 0 0 1 1
-( 1952 -2308 720 ) ( 1936 -2300 636 ) ( 1952 -2308 636 ) 128_grey_3 0 0 0 1 1
-( 1952 -2360 720 ) ( 1960 -2344 636 ) ( 1952 -2360 636 ) 128_grey_3 0 0 0 1 1
-( 1960 -2324 720 ) ( 1952 -2308 636 ) ( 1960 -2324 636 ) 128_grey_3 0 0 0 1 1
-( 1960 -2344 720 ) ( 1960 -2324 636 ) ( 1960 -2344 636 ) 128_grey_3 0 0 0 1 1
+( 1896 -2344 1268 ) ( 1896 -2324 1184 ) ( 1896 -2324 1268 ) 128_grey_3 0 0 0 1 1
+( 1896 -2344 1268 ) ( 1904 -2360 1184 ) ( 1896 -2344 1184 ) 128_grey_3 0 0 0 1 1
+( 1904 -2308 1268 ) ( 1896 -2324 1184 ) ( 1904 -2308 1184 ) 128_grey_3 0 0 0 1 1
+( 1920 -2300 1268 ) ( 1904 -2308 1184 ) ( 1920 -2300 1184 ) 128_grey_3 0 0 0 1 1
+( 1904 -2360 1268 ) ( 1920 -2364 1184 ) ( 1904 -2360 1184 ) 128_grey_3 0 0 0 1 1
+( 1920 -2364 1268 ) ( 1936 -2364 1184 ) ( 1920 -2364 1184 ) 128_grey_3 0 0 0 1 1
+( 1896 -2324 920 ) ( 1920 -2300 920 ) ( 1904 -2308 920 ) 128_grey_3 0 0 0 1 1
+( 1896 -2344 1504 ) ( 1920 -2364 1504 ) ( 1904 -2360 1504 ) 128_grey_3 0 0 0 1 1
+( 1936 -2300 1268 ) ( 1920 -2300 1184 ) ( 1936 -2300 1184 ) 128_grey_3 0 0 0 1 1
+( 1936 -2364 1268 ) ( 1952 -2360 1184 ) ( 1936 -2364 1184 ) 128_grey_3 0 0 0 1 1
+( 1952 -2308 1268 ) ( 1936 -2300 1184 ) ( 1952 -2308 1184 ) 128_grey_3 0 0 0 1 1
+( 1952 -2360 1268 ) ( 1960 -2344 1184 ) ( 1952 -2360 1184 ) 128_grey_3 0 0 0 1 1
+( 1960 -2324 1268 ) ( 1952 -2308 1184 ) ( 1960 -2324 1184 ) 128_grey_3 0 0 0 1 1
+( 1960 -2344 1268 ) ( 1960 -2324 1184 ) ( 1960 -2344 1184 ) 128_grey_3 0 0 0 1 1
 }
+}
+// entity 81
+{
+"classname" "weapon_grenadelauncher"
+"origin" "2116 -1564 688"
 }

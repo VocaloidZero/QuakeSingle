@@ -6,9 +6,9 @@ Output file: lavalab.bsp
 *** WARNING 06: No info_player_deathmatch entities in level
          2529 faces
           388 brushes
-          111 entities
-           31 unique texnames
-          325 texinfo
+          112 entities
+           32 unique texnames
+          328 texinfo
 
 Opened WAD: C:/Users/Raina/Documents/GitHub/QuakeSingle/wads/START.WAD
 Opened WAD: C:/Users/Raina/Documents/GitHub/QuakeSingle/wads/prototype_1_2.wad
@@ -19,7 +19,7 @@ Processing hull 0...
 ---- CSGFaces ----
          2417 brushfaces
          4309 csgfaces
-         3864 mergedfaces
+         3865 mergedfaces
 ---- SolidBSP ----
          4570 split nodes
          1696 solid leafs
@@ -29,8 +29,8 @@ Processing hull 0...
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         9580 leaffaces
-         8942 nodefaces
+         9581 leaffaces
+         8943 nodefaces
 ---- Portalize ----
          2875 vis leafs
          2875 vis clusters
@@ -38,7 +38,7 @@ Processing hull 0...
 ---- FillOutside ----
          1206 outleafs
 ---- MergeAll ----
-         2989 mergefaces
+         2990 mergefaces
 ---- SolidBSP ----
          1374 split nodes
           439 solid leafs
@@ -48,8 +48,8 @@ Processing hull 0...
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         4680 leaffaces
-         3504 nodefaces
+         4681 leaffaces
+         3505 nodefaces
 ---- Portalize ----
           936 vis leafs
           936 vis clusters
@@ -57,7 +57,7 @@ Processing hull 0...
 ---- Tjunc ----
          3093 world edges
         10416 edge points
-         3811 edges added by tjunctions
+         3809 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -69,16 +69,16 @@ Wrote lavalab.bsp
          4212 vertexes          50544
          1486 nodes             35664
           254 texinfo           10160
-         3640 faces             72800
+         3641 faces             72820
          2690 clipnodes         21520
          1049 leafs             29372
-         4816 marksurfaces       9632
-        18284 surfedges         73136
-         9143 edges             36572
-           31 textures         271832
+         4817 marksurfaces       9634
+        18286 surfedges         73144
+         9144 edges             36576
+           32 textures         277764
               lightdata             0
               visdata               0
-              entdata            8473
+              entdata            8534
 
-0.830 seconds elapsed
-Peak memory usage: 25207552 (24.0M)
+1.582 seconds elapsed
+Peak memory usage: 25209264 (24.0M)
