@@ -4,60 +4,60 @@ Output file: lavalab.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         2451 faces
+         2529 faces
           388 brushes
-          115 entities
-           32 unique texnames
-          326 texinfo
+          111 entities
+           31 unique texnames
+          325 texinfo
 
 Opened WAD: C:/Users/Raina/Documents/GitHub/QuakeSingle/wads/START.WAD
 Opened WAD: C:/Users/Raina/Documents/GitHub/QuakeSingle/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
           372 brushes
-          819 planes
+          896 planes
 ---- CSGFaces ----
-         2339 brushfaces
-         3989 csgfaces
-         3600 mergedfaces
+         2417 brushfaces
+         4309 csgfaces
+         3864 mergedfaces
 ---- SolidBSP ----
-         4455 split nodes
-         1703 solid leafs
-         2314 empty leafs
-          439 water leafs
+         4570 split nodes
+         1696 solid leafs
+         2390 empty leafs
+          485 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         9170 leaffaces
-         8546 nodefaces
+         9580 leaffaces
+         8942 nodefaces
 ---- Portalize ----
-         2753 vis leafs
-         2753 vis clusters
-         8759 vis portals
+         2875 vis leafs
+         2875 vis clusters
+         9201 vis portals
 ---- FillOutside ----
-         1224 outleafs
+         1206 outleafs
 ---- MergeAll ----
-         2717 mergefaces
+         2989 mergefaces
 ---- SolidBSP ----
-         1243 split nodes
-          434 solid leafs
-          575 empty leafs
-          235 water leafs
+         1374 split nodes
+          439 solid leafs
+          649 empty leafs
+          287 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         4316 leaffaces
-         3216 nodefaces
+         4680 leaffaces
+         3504 nodefaces
 ---- Portalize ----
-          810 vis leafs
-          810 vis clusters
-         2973 vis portals
+          936 vis leafs
+          936 vis clusters
+         3453 vis portals
 ---- Tjunc ----
-         2805 world edges
-         9593 edge points
-         3535 edges added by tjunctions
+         3093 world edges
+        10416 edge points
+         3811 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -65,20 +65,20 @@ Processing hull 1...
 Processing hull 2...
 ---- WriteBSPFile ----
 Wrote lavalab.bsp
-         1398 planes            27960
-         3903 vertexes          46836
-         1355 nodes             32520
-          257 texinfo           10280
-         3352 faces             67040
-         2433 clipnodes         19464
-          923 leafs             25844
-         4452 marksurfaces       8904
-        16864 surfedges         67456
-         8433 edges             33732
-           32 textures         293636
+         1646 planes            32920
+         4212 vertexes          50544
+         1486 nodes             35664
+          254 texinfo           10160
+         3640 faces             72800
+         2690 clipnodes         21520
+         1049 leafs             29372
+         4816 marksurfaces       9632
+        18284 surfedges         73136
+         9143 edges             36572
+           31 textures         271832
               lightdata             0
               visdata               0
-              entdata            8694
+              entdata            8473
 
-1.094 seconds elapsed
-Peak memory usage: 24266536 (23.1M)
+0.830 seconds elapsed
+Peak memory usage: 25207552 (24.0M)
